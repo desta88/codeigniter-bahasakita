@@ -102,6 +102,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	        			// console.log(data.list[i]['path']);
 	        		}
 				}
+	         },
+	         error: function(xhr, exception){
+	         	if( xhr.status === 0)
+		            alert('Error : ' + xhr.status + 'You are not connected.');
+		        else if( xhr.status == "201")
+		            alert('Error : ' + xhr.status + '\nServer error.');
+		        else if( xhr.status == "404")
+		            alert('Error : ' + xhr.status + '\nPage note found');
+		        else if( xhr.status == "500")
+		             alert('Internal Server Error [500].');
+		        else if (exception === 'parsererror') 
+		            alert('Error : ' + xhr.status + '\nImpossible to parse result.');
+		        else if (exception === 'timeout')
+		            alert('Error : ' + xhr.status + '\nRequest timeout.');
+		        else if( xhr.status == "401")
+		            alert('Error : ' + xhr.status + '\nToken is not valid, create form postman, and placing in controller/test.php');
+		        else
+		            alert('Error .\n' + xhr.responseText);
 	         }
 	    });
 	    
