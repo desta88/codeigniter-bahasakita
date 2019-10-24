@@ -9,7 +9,7 @@ class Test extends CI_Controller {
 	}
 
 	// Token
-	protected $token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InRlc3RhcGkiLCJyb2xlIjoidXNlciIsImV4cGlyZWQiOjE1NzE5MTY1ODMsInBocmFzZXMiOiI1MDJjZWFiMjliMDA0MzA3OGY4YjJkYmRhOWNmZDRjNCJ9.6hNj96jR-BrOsgBFq1LxmBhJkup4Zia7T7cHUiAqd1M';
+	protected $token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InRlc3RhcGkiLCJyb2xlIjoidXNlciIsImV4cGlyZWQiOjE1NzE5MTk5NTUsInBocmFzZXMiOiI5ODE1YjFmZmNiZTk0YjJmODBiNjVjNTE0MzU3YmY4ZSJ9.0mMU_BBSVNq6sHsSj1xjsyLA2XA7vHJc3_gtX-ix1_o';
 
 	public function index()
 	{

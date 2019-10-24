@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "e9d977ad-4d6c-4fe3-bd07-c853e0cb4a29",
+		"name": "API - Bahasa Kita",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Auth Request - BahasaKita",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"username\" : \"testapi\",\r\n\"password\" : \"t3sting@pi\"\r\n}"
+				},
+				"url": {
+					"raw": "www.tts.bahasakita.co.id/api/beta/auth",
+					"host": [
+						"www",
+						"tts",
+						"bahasakita",
+						"co",
+						"id"
+					],
+					"path": [
+						"api",
+						"beta",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
