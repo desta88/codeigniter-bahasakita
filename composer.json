@@ -1,0 +1,15 @@
+{
+    "name": "desta88/ci-google-translations",
+    "description": "create api google translate in codeigniter",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Andhika Desta Permana",
+            "email": "andhika.desta88@gmail.com"
+        }
+    ],
+    "require": {
+        "google/cloud-translate": "^1.5"
+    }
+}
