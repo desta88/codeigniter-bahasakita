@@ -118,6 +118,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		            alert('Error : ' + xhr.status + '\nRequest timeout.');
 		        else if( xhr.status == "401")
 		            alert('Error : ' + xhr.status + '\nToken is not valid, create form postman, and placing in controller/test.php');
+		        	/* 
+		        	Bisa ditambahkan controller update token (jika mau menggunakan dynamic token) 
+		        	document.location = uri + controller;
+		        	*/
 		        else
 		            alert('Error .\n' + xhr.responseText);
 	         }
